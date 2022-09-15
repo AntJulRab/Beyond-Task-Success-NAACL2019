@@ -1,0 +1,25 @@
+name: gw-env
+channels:
+  - defaults
+dependencies:
+  - pip=21.2.2
+  - python=3.7.6
+  - pip:
+    - argparse==1.4.0
+    - DateTime==4.1.1
+    - h5py==3.1.0
+    - markdown==3.3.7
+    - nltk==3.6.7
+    - numpy==1.19.5
+    - multiprocessing==2.6.2
+    - pillow==8.4.0
+    - protobuf==3.19.4
+    - jsons==1.6.3
+    - regex==2022.6.2
+    - tensorboardX==1.0
+    - torch==1.0.1
+    - pytorch-lightning==1.1.0
+    - typing-extensions==4.1.1
+    - typing==3.5.2
+    - zipp==3.6.0
+
